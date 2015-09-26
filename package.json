@@ -17,6 +17,9 @@
   ],
   "license": "MIT",
   "main": "lib/TextareaAutosize.js",
+  "scripts": {
+    "prepublish": "make"
+  },
   "peerDependencies": {
     "react": ">= 0.13.0 || ^0.14.0-alpha"
   },
@@ -31,7 +34,4 @@
     "eslint-plugin-react": "^2.1.0"
   },
   "dependencies": {}
-  "scripts": {
-    "prepublish": "make"
-  }
 }
